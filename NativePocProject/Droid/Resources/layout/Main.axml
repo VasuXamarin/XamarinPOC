@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+              android:orientation="vertical" 
+              android:layout_width="match_parent" 
+              android:layout_height="match_parent"
+              >
+    
+    <EditText android:layout_width="match_parent" 
+              android:layout_height="wrap_content"
+              android:id="@+id/firstname"
+              android:fontFamily="sans-serif"
+              android:textSize="20sp"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:hint="Enter your first name here"
+              android:layout_marginTop="10dp"
+              android:layout_marginBottom="10dp"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              />
+     <EditText android:layout_width="match_parent" 
+              android:layout_height="wrap_content"
+               android:textAppearance="?android:attr/textAppearanceMedium"
+               android:hint="Enter your last name here"
+              android:id="@+id/lastname"
+              android:fontFamily="sans-serif"
+              android:textSize="20sp"
+               android:layout_marginTop="10dp"
+              android:layout_marginBottom="10dp"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              />
+    <Button
+        android:text="Pass Intent As Message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passIntentAsMessageBtn"
+        android:textAllCaps="false" 
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+    />
+    
+    <Button
+        android:text="Display List"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/displayListBtn"
+        android:textAllCaps="false" 
+         android:textSize="17sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+    />
+     <Button
+        android:text="Display CustomList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/displayCustomList"
+        android:textAllCaps="false" 
+         android:textSize="17sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+    />
+	<Button
+        android:text="Recycler View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/displayRecyclerViewBtn"
+        android:textAllCaps="false" 
+         android:textSize="17sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+    />
+    </LinearLayout>
