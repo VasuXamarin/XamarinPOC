@@ -88,6 +88,7 @@ namespace NativePocProject.Droid.Activities
                 {
                     //await Task.Run(async () => 
                     //{
+
                         var dropBoxContentService = RestService.For<IDropBoxContentService>("https://dl.dropboxusercontent.com");
                         apiData = await dropBoxContentService.GetDropBoxContent();
                         UserDataItems = apiData.DropBoxRows;
